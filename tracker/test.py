@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import smtplib
 from common.utils import Utils
 from common.constants import PRICE_SELECTOR_MAP
+
 class SamplePriceExtractor():
 
     def __init__(self, website, product_url):
