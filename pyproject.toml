@@ -11,6 +11,8 @@ flask = "^3.0.3"
 requests = "^2.32.3"
 lxml = "^5.2.2"
 bs4 = "^0.0.2"
+redis = {extras = ["hiredis"], version = "^5.0.7"}
+price-parser = "^0.3.4"
 
 
 [build-system]
